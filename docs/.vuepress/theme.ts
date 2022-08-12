@@ -90,7 +90,9 @@ export default hopeTheme({
 
   plugins: {
     mdEnhance: {
-      enableAll: true,
+      tabs: true,
+      codetabs: true,
+      tex: true,
       presentation: {
         plugins: ["highlight", "math", "search", "notes", "zoom"],
       },
