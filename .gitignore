@@ -19,6 +19,7 @@ TODOs.md
 # Docs dist directory
 /vuepress
 docs/.vuepress/.cache/*
+docs/.vuepress/dist
 yarn.lock
 
 # Typescript build dist
