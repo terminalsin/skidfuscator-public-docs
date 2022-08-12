@@ -4,6 +4,10 @@ export const en = sidebar({
   '/': [
     // NavbarItem
     {
+      text: 'Home',
+      link: '/',
+    },
+    {
         text: 'Exclusions',
         link: '/exclusion',
     },

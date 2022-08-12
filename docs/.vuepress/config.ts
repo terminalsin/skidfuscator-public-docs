@@ -1,4 +1,5 @@
 import { defineUserConfig } from "vuepress";
+
 import theme from "./theme";
 
 export default defineUserConfig({
@@ -7,8 +8,11 @@ export default defineUserConfig({
   locales: {
     "/": {
       lang: "en-US",
-      title: "Guide",
-      description: "Guide to Skidfuscator in",
+      description: "Guide to Skidfuscator",
+    },
+    "/fr/": {
+      lang: "fr-FR",
+      description: "Guide pour Skidfuscator",
     },
     "/zh/": {
       lang: "zh-CN",

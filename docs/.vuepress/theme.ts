@@ -1,4 +1,5 @@
 import { hopeTheme } from "vuepress-theme-hope";
+
 import * as navbar from "./navbar";
 import * as sidebar from "./sidebar";
 
@@ -19,10 +20,21 @@ export default hopeTheme({
   locales: {
     "/": {
       // navbar
-      navbar: navbar.en,
+      //navbar: navbar.en,
 
       // sidebar
       sidebar: sidebar.en,
+
+      footer: "Default footer",
+
+      displayFooter: false,
+    },
+    "/fr/": {
+      // navbar
+      //navbar: navbar.en,
+
+      // sidebar
+      sidebar: sidebar.fr,
 
       footer: "Default footer",
 
