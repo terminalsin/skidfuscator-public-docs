@@ -18,7 +18,8 @@ TODOs.md
 
 # Docs dist directory
 /vuepress
-docs/vuepress/.cache/*
+docs/.vuepress/.cache/*
+yarn.lock
 
 # Typescript build dist
 packages/@vuepress/shared-utils/lib/
