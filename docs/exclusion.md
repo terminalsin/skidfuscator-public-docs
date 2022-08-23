@@ -62,6 +62,17 @@ method{main}
 class{^com\/apache} 
 ```
 
+
+#### Multiple exclusions
+
+To be able to exclude for example several methods, or packages, it's quite simple really! All you have to do is create a new line and add the new exemption :)
+
+```java
+class{^com\/apache} // Matches apache
+class{^com\/google} // Matches google
+```
+
+
 ### Inclusions
 As opposed to exclusions, you may want to **only include a particular set of classes or a package** in your obfuscated jar. Fret not, this is possible, albeit a little more complicated.
 
