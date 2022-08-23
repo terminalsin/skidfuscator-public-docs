@@ -5,7 +5,7 @@ export const fr = sidebar({
     // NavbarItem
     {
       text: 'Accueil',
-      link: '/fr/',
+      link: '/fr/ ',
     },
     {
         text: 'Exclusions',
